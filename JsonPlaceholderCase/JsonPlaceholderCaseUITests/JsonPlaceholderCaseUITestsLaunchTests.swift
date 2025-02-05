@@ -1,10 +1,3 @@
-//
-//  JsonPlaceholderCaseUITestsLaunchTests.swift
-//  JsonPlaceholderCaseUITests
-//
-//  Created by P60752 on 29.01.2025.
-//
-
 import XCTest
 
 final class JsonPlaceholderCaseUITestsLaunchTests: XCTestCase {

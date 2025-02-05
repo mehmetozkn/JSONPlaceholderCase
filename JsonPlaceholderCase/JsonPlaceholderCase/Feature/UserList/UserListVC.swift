@@ -3,7 +3,7 @@ import RxSwift
 import RxCocoa
 
 class UserListVC: UIViewController {
-    var viewModel = UserListVM()
+    private let viewModel = UserListVM()
     
     @IBOutlet var tableView: UITableView!
     @IBOutlet var activityIndicator: UIActivityIndicatorView!

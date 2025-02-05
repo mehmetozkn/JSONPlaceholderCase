@@ -7,7 +7,7 @@ protocol BaseServiceProtocol {
         onSuccess: @escaping (T.Response) -> Void,
         onError: @escaping (Error) -> Void
     )
-}
+}   
 
 struct BaseService: BaseServiceProtocol {
     static let shared = BaseService()

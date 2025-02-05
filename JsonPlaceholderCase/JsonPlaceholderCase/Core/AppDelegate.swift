@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  JsonPlaceholderCase
-//
-//  Created by P60752 on 29.01.2025.
-//
-
 import UIKit
 
 @main
