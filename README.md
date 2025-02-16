@@ -1,3 +1,6 @@
 # JSONPlaceholderCase
 
-Proje zip halinde indirilerek. XCode üzerinden direkt çalıştırılabilir.
+Generic Network Layer
+RxSwift
+Alamofire
+
