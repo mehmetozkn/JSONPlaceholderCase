@@ -12,7 +12,7 @@ protocol BaseService {
 struct ServiceManager: BaseService {
     static let shared = ServiceManager()
     
-    init() {}
+    private init() {}
 
     func send<T: BaseRequest>(
         _ request: T,
