@@ -6,9 +6,9 @@ class UserListVM {
     let disposeBag = DisposeBag()
     let users = BehaviorRelay<[User]>(value: [])
     let isLoaded = BehaviorRelay<Bool>(value: false)
-    private let baseService: BaseServiceProtocol
+    private let baseService: BaseService
 
-    init(baseService: BaseServiceProtocol = BaseService.shared) {
+    init(baseService: BaseService) {
         self.baseService = baseService
     }
     

@@ -67,7 +67,7 @@ class UserListVMTests: XCTestCase {
 }
 
 
-class MockBaseService: BaseServiceProtocol {
+class MockBaseService: BaseService {
     var mockResponse: [User]?
     var mockError: Error?
     

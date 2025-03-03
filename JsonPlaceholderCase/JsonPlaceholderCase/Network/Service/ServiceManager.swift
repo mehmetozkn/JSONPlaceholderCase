@@ -1,7 +1,7 @@
 import Foundation
 import Alamofire
 
-protocol BaseServiceProtocol {
+protocol BaseService {
     func send<T: BaseRequest>(
         _ request: T,
         onSuccess: @escaping (T.Response) -> Void,
@@ -9,10 +9,10 @@ protocol BaseServiceProtocol {
     )
 }   
 
-struct BaseService: BaseServiceProtocol {
-    static let shared = BaseService()
+struct ServiceManager: BaseService {
+    static let shared = ServiceManager()
     
-    private init() {}
+    init() {}
 
     func send<T: BaseRequest>(
         _ request: T,

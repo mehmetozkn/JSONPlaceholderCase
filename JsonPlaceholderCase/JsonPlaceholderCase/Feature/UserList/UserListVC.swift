@@ -3,7 +3,7 @@ import RxSwift
 import RxCocoa
 
 class UserListVC: UIViewController {
-    private let viewModel = UserListVM()
+    private let viewModel = UserListVM(baseService: ServiceManager.shared)
     
     @IBOutlet var tableView: UITableView!
     @IBOutlet var activityIndicator: UIActivityIndicatorView!
